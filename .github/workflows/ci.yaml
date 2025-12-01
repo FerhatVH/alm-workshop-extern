@@ -6,7 +6,7 @@ on:
     branches:
       - "**"
 env:
-  CONTAINER_REPOSITORY: quay.io/FerhatVH # PUT YOUR OWN USERNAME HERE
+  CONTAINER_REPOSITORY: quay.io/ferhatvh # PUT YOUR OWN USERNAME HERE
   CONTAINER_IMAGE: alm-workshop
   GOLANG_VERSION: 1.23
 
@@ -28,7 +28,7 @@ jobs:
         uses: docker/metadata-action@v4
         id: meta
         with:
-          images: quay.io/FerhatVH/alm-workshop
+          images: quay.io/ferhatvh/alm
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v3
