@@ -5,6 +5,8 @@ on:
   push:
     branches:
       - "**"
+  release:
+    types: [published]
 env:
   CONTAINER_REPOSITORY: quay.io/ferhatvh # PUT YOUR OWN USERNAME HERE
   CONTAINER_IMAGE: alm-workshop
