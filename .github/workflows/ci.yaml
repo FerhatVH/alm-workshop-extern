@@ -6,7 +6,7 @@ on:
     branches:
       - "**"
 env:
-  CONTAINER_REPOSITORY: quay.io/mortierdaan # PUT YOUR OWN USERNAME HERE
+  CONTAINER_REPOSITORY: quay.io/FerhatVH # PUT YOUR OWN USERNAME HERE
   CONTAINER_IMAGE: alm-workshop
   GOLANG_VERSION: 1.23
 
